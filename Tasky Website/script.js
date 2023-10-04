@@ -38,8 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 $(document).ready(function () {
-    $("#addTaskButton").click(function () {
-        // Clone the task entry structure
+    $("#addTaskButton").click(function () { // Clone the task entry structure
         var newTaskEntry = $(".task-entry:first").clone();
 
         // Clear input fields in the cloned task entry (optional)
@@ -54,16 +53,15 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-    $("#addTaskButton").click(function () {
-        // Open the comment modal
+    $("#addTaskButton").click(function () { // Open the comment modal
         $('#commentModal').modal('show');
     });
 });
 
 
 $(document).ready(function () {
-    $("#greaterThanButton").click(function () {
-        // Toggle the visibility of the right container
-        $("#rightContainer").toggle();
+    $(".greaterThanButton").click(function () { // Toggle the visibility of the right container
+        $(".task-comment-section").show();
+        $(".task-details-section").hide();
     });
 });

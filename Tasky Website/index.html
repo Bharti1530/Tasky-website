@@ -28,32 +28,13 @@
 </head>
 
 <body>
-    <div id="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 float-start">
-                    <h3 id="logo" class="text-danger fw-bold"> RapidDev</h3>
-                </div>
-                <div class="col-md-9">
-                    <ul id="menu" class="float-md-end">
-                        <li><a href="">Order Customization</a></li>
-                        <li><a href="">All Templates</a></li>
-                        <li><a href="">All Plugins</a></li>
-                        <li><a href="">Documentation</a></li>
-                        <li><a id="getit" href="">Get it Free</a></li>
-                        <li><a href="">Remove Banner</a></li>
-                    </ul>
-                </div>
-            </div>
 
-        </div>
-    </div>
 
     <div id="header1">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h3 id="logo" class="fw-bold">Tasky</h3>
+                    <h3 id="logo" class="fw-bold">TogoTask</h3>
                 </div>
                 <div class="col-md-8">
                     <ul id="menu2" class="float-md-end">
@@ -730,183 +711,171 @@
                                         </div>
                                     </div>
 
-
-
-
-
-
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
                 </div>
 
 
                 <div id="right" class="col-md-5 p-3">
-                    <div class="row justify-content-around ">
-                        <div class="col-md-8">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-secondary" type="button"><i class="fa-solid fa-xmark"></i>Mark
-                                    uncompleted</button>
+                    <div class="task-details-section">
+                        <div class="row justify-content-around ">
+                            <div class="col-md-8">
+                                <div class="d-grid gap-2">
+                                    <button class="btn btn-secondary" type="button"><i class="fa-solid fa-xmark"></i>Mark
+                                        uncompleted</button>
+                                </div>
+                            </div>
+                            <div class="col-md-1">
+                                <button type="button" class="btn btn-outline-secondary">
+                                    <i class="fa-solid fa-trash"></i>
+                                </button>
+                            </div>
+                            <div class="col-md-1">
+                                <button type="button" class="btn btn-outline-secondary">
+                                    <i class="fa-solid fa-link"></i>
+                                </button>
+                            </div>
+                            <div class="col-md-1">
+                                <button type="button" class="btn btn-outline-secondary">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </button>
                             </div>
                         </div>
-                        <div class="col-md-1">
-                            <button type="button" class="btn btn-outline-secondary">
-                                <i class="fa-solid fa-trash"></i>
-                            </button>
-                        </div>
-                        <div class="col-md-1">
-                            <button type="button" class="btn btn-outline-secondary">
-                                <i class="fa-solid fa-link"></i>
-                            </button>
-                        </div>
-                        <div class="col-md-1">
-                            <button type="button" class="btn btn-outline-secondary">
-                                <i class="fa-solid fa-xmark"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="row p-3">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <!-- Button to open the Team modal -->
-                                    <button type="button" id="teamButton" class="btn btn-link text-dark"
-                                        data-bs-toggle="modal" data-bs-target="#teamModal">
-                                        Team
-                                    </button>
-
-                                    <!-- Team Modal -->
-                                    <div class="modal fade" id="teamModal" tabindex="-1"
-                                        aria-labelledby="teamModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title fw-bold" id="teamModalLabel">Marketplace
-                                                        Project Team
-                                                    </h5>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                        aria-label="Close"></button>
+                        <div class="row p-3">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <!-- Button to open the Team modal -->
+                                        <button type="button" id="teamButton" class="btn btn-link text-dark"
+                                            data-bs-toggle="modal" data-bs-target="#teamModal">
+                                            Team
+                                        </button>
+    
+                                        <!-- Team Modal -->
+                                        <div class="modal fade" id="teamModal" tabindex="-1"
+                                            aria-labelledby="teamModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title fw-bold" id="teamModalLabel">Marketplace
+                                                            Project Team
+                                                        </h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <button class="btn btn-primary fw-bold" type="button"><i
+                                                                class="fa-solid fa-xmark"></i>Boleyn Anna
+                                                        </button>
+                                                        <button class="btn btn-primary fw-bold" type="button"><i
+                                                                class="fa-solid fa-xmark"></i>Johns Fred
+                                                        </button>
+                                                        <button class="btn btn-primary fw-bold" type="button"><i
+                                                                class="fa-solid fa-xmark"></i>Dow Sara
+                                                        </button>
+    
+                                                    </div>
+    
                                                 </div>
-                                                <div class="modal-body">
-                                                    <button class="btn btn-primary fw-bold" type="button"><i
-                                                            class="fa-solid fa-xmark"></i>Boleyn Anna
-                                                    </button>
-                                                    <button class="btn btn-primary fw-bold" type="button"><i
-                                                            class="fa-solid fa-xmark"></i>Johns Fred
-                                                    </button>
-                                                    <button class="btn btn-primary fw-bold" type="button"><i
-                                                            class="fa-solid fa-xmark"></i>Dow Sara
-                                                    </button>
-
-                                                </div>
-
                                             </div>
                                         </div>
+    
                                     </div>
-
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="d-flex">
-                                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" alt="Profile 1"
-                                            class="profile-icon">
-                                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" alt="Profile 2"
-                                            class="profile-icon">
-                                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" alt="Profile 2"
-                                            class="profile-icon">
-                                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" alt="Profile 2"
-                                            class="profile-icon">
+                                    <div class="col-md-3">
+                                        <div class="d-flex">
+                                            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" alt="Profile 1"
+                                                class="profile-icon">
+                                            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" alt="Profile 2"
+                                                class="profile-icon">
+                                            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" alt="Profile 2"
+                                                class="profile-icon">
+                                            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" alt="Profile 2"
+                                                class="profile-icon">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+    
                                     </div>
                                 </div>
-                                <div class="col-md-3">
-
-                                </div>
+    
                             </div>
-
-                        </div>
-                        <div class="col-md-2">
-
-                        </div>
-                    </div>
-                    <div class="row py-3">
-                        <h5>Marketplace</h5>
-                    </div>
-                    <div class="row">
-                        <div class="form-outline">
-                            <textarea class="form-control" id="textAreaExample1" rows="4"></textarea>
-                        </div>
-                    </div>
-                    <button type="button" id="addTaskButton" class="btn btn-link" data-bs-toggle="button"
-                        autocomplete="off">
-                        <i class="fa-solid fa-plus"></i>Add Task
-                    </button>
-
-                    <div id="taskContainer" class="container mt-4">
-                        <div class="task-entry">
-                            <div class="row">
-
-                                <div class="col-md-1">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="checkbox">
-                                    </div>
-                                </div>
-
-
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="taskName"
-                                            placeholder="Add task name">
-                                    </div>
-                                </div>
-
-
-                                <div class="col-md-2">
-                                    <div class="form-group">
-                                        <input type="date" class="form-control" id="calendar">
-                                    </div>
-                                </div>
-
-
-                                <div class="col-md-2">
-                                    <div class="form-group">
-                                        <select class="form-control" id="user">
-                                            <option value="user1">User 1</option>
-                                            <option value="user2">User 2</option>
-                                            <option value="user3">User 3</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-1">
-                                    <button type="button" id="greaterThanButton" class="btn btn-link">
-                                        <i class="fa-solid fa-greater-than"></i>
-                                    </button>
-                                </div>
+                            <div class="col-md-2">
+    
                             </div>
-
                         </div>
-
-
-                    </div>
-
-                    <div id="rightContainer" class="container mt-4" style="display: none;">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="taskName"
-                                placeholder="Add a Comment/Question here">
+                        <div class="row py-3">
+                            <h5>Marketplace</h5>
                         </div>
-                        <button type="button" class="btn btn-primary">Comment</button>
+                        <div class="row">
+                            <div class="form-outline">
+                                <textarea class="form-control" id="textAreaExample1" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <button type="button" id="addTaskButton" class="btn btn-link" data-bs-toggle="button"
+                            autocomplete="off">
+                            <i class="fa-solid fa-plus"></i>Add Task
+                        </button>
+    
+                        <div id="taskContainer" class="container mt-4">
+                            <div class="task-entry">
+                                <div class="row">
+    
+                                    <div class="col-md-1">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="checkbox">
+                                        </div>
+                                    </div>
+    
+    
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="taskName"
+                                                placeholder="Add task name">
+                                        </div>
+                                    </div>
+    
+    
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <input type="date" class="form-control" id="calendar">
+                                        </div>
+                                    </div>
+    
+    
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <select class="form-control" id="user">
+                                                <option value="user1">User 1</option>
+                                                <option value="user2">User 2</option>
+                                                <option value="user3">User 3</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <button type="button" class="greaterThanButton btn btn-link">
+                                            <i class="fa-solid fa-greater-than"></i>
+                                        </button>
+                                    </div>
+                                </div>
+    
+                            </div>
+    
+    
+                        </div>
+    
                     </div>
+                    <div class="task-comment-section" style="display: none;">
+                        <div id="rightContainer" class="container mt-4" >
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="taskName"
+                                    placeholder="Add a Comment/Question here">
+                            </div>
+                            <button type="button" class="btn btn-primary">Comment</button>
+                        </div>
+                    </div>
+                   
 
 
 
