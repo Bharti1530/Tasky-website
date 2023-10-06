@@ -65,3 +65,9 @@ $(document).ready(function () {
         $(".task-details-section").hide();
     });
 });
+$(document).ready(function () {
+    $(".lessThanButton").click(function () { // Toggle the visibility of the right container
+        $(".task-comment-section").hide();
+        $(".task-details-section").show();
+    });
+});

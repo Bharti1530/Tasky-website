@@ -723,7 +723,8 @@
                         <div class="row justify-content-around ">
                             <div class="col-md-8">
                                 <div class="d-grid gap-2">
-                                    <button class="btn btn-secondary" type="button"><i class="fa-solid fa-xmark"></i>Mark
+                                    <button class="btn btn-secondary" type="button"><i
+                                            class="fa-solid fa-xmark"></i>Mark
                                         uncompleted</button>
                                 </div>
                             </div>
@@ -752,7 +753,7 @@
                                             data-bs-toggle="modal" data-bs-target="#teamModal">
                                             Team
                                         </button>
-    
+
                                         <!-- Team Modal -->
                                         <div class="modal fade" id="teamModal" tabindex="-1"
                                             aria-labelledby="teamModalLabel" aria-hidden="true">
@@ -775,13 +776,13 @@
                                                         <button class="btn btn-primary fw-bold" type="button"><i
                                                                 class="fa-solid fa-xmark"></i>Dow Sara
                                                         </button>
-    
+
                                                     </div>
-    
+
                                                 </div>
                                             </div>
                                         </div>
-    
+
                                     </div>
                                     <div class="col-md-3">
                                         <div class="d-flex">
@@ -796,13 +797,13 @@
                                         </div>
                                     </div>
                                     <div class="col-md-3">
-    
+
                                     </div>
                                 </div>
-    
+
                             </div>
                             <div class="col-md-2">
-    
+
                             </div>
                         </div>
                         <div class="row py-3">
@@ -817,33 +818,33 @@
                             autocomplete="off">
                             <i class="fa-solid fa-plus"></i>Add Task
                         </button>
-    
+
                         <div id="taskContainer" class="container mt-4">
                             <div class="task-entry">
                                 <div class="row">
-    
+
                                     <div class="col-md-1">
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox" id="checkbox">
                                         </div>
                                     </div>
-    
-    
+
+
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <input type="text" class="form-control" id="taskName"
                                                 placeholder="Add task name">
                                         </div>
                                     </div>
-    
-    
+
+
                                     <div class="col-md-2">
                                         <div class="form-group">
                                             <input type="date" class="form-control" id="calendar">
                                         </div>
                                     </div>
-    
-    
+
+
                                     <div class="col-md-2">
                                         <div class="form-group">
                                             <select class="form-control" id="user">
@@ -859,23 +860,127 @@
                                         </button>
                                     </div>
                                 </div>
-    
+
                             </div>
-    
-    
+
+
                         </div>
-    
+
                     </div>
                     <div class="task-comment-section" style="display: none;">
-                        <div id="rightContainer" class="container mt-4" >
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="taskName"
-                                    placeholder="Add a Comment/Question here">
+                        <div class="container">
+                            <div class="row justify-content-around ">
+                                <div class="col-md-7">
+                                    <div class="d-grid gap-2">
+                                        <button class="btn btn-secondary" type="button"><i
+                                                class="fa-solid fa-xmark"></i>Mark
+                                            uncompleted</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="fa-solid fa-link"></i>
+                                    </button>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </button>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </button>
+                                </div>
                             </div>
-                            <button type="button" class="btn btn-primary">Comment</button>
                         </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <button type="button" class=" small lessThanButton btn btn-link">
+                                        <i class="fa-solid fa-less-than"></i>
+
+                                    </button>
+                                </div>
+                                <div class="col-md-2">
+                                    <h6><a class="text-dark" href="">Marketplace</a></h6>
+                                </div>
+                            </div>
+
+                        </div>
+                        <br>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p>Assignee</p>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                                                class="rounded-circle m-2" style="width: 35px;" alt="Avatar" />
+
+                                        </div>
+                                        <div class="col-md-5">
+                                            <p>Unassigned</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <p>Due Date</p>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                                                class="rounded-circle m-2" style="width: 35px;" alt="Avatar" />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <p>No Due Date</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-outline">
+                                <textarea class="form-control" id="textAreaExample1" rows="4"
+                                    placeholder="Add More Details to this Task"></textarea>
+                            </div>
+                        </div>
+                        <div class="container m-4 border-top">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                                        class="rounded-circle m-2" style="width: 35px;" alt="Avatar" />
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="form-outline">
+                                        <textarea class="form-control" id="textAreaExample1" rows="4"
+                                            placeholder="Add a Comment/Question here"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+
+                            <button type="button" class="btn btn-primary float-end">Comment</button>
+                            <button type="button" class="btn btn-outline-secondary float-end">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
+
                     </div>
-                   
+
 
 
 
