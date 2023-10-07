@@ -28,11 +28,14 @@ page[size="A4"][layout="landscape"] {
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
-   
+    width: 297mm;
+    
+    height: 210mm;
 }
 
 .col {
     border: 2px solid black;
+
 }
 
 .header {
