@@ -1,0 +1,92 @@
+body {
+    background: rgb(204, 204, 204);
+}
+
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+page[size="A4"][layout="landscape"] {
+    width: 29.7cm;
+    height: 21cm;
+}
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.col {
+    border: 2px solid black;
+}
+
+.header {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 6px;
+}
+
+.header h1 {
+    color: #333;
+}
+
+.address-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.bill-to,
+.pick-up,
+.order-info {
+    flex: 1;
+}
+
+.address-info h6 {
+    color: #333;
+}
+
+.book-orders,
+.copy-details {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+@media print {
+
+    body,
+    page {
+        background: white;
+        margin: 0;
+        box-shadow: 0;
+    }
+}

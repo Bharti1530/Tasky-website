@@ -7,6 +7,15 @@ body {
 
 }
 
+.invoice-container {
+    width: 297mm;
+    height: 210mm;
+    margin: 0;
+    padding: 20px;
+    page-break-after: always;
+    /* Ensure each receipt is on a separate page when printing */
+}
+
 .col {
     border: 2px solid black;
 }
