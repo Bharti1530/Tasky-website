@@ -74,4 +74,37 @@ $(document).ready(function () {
 
 
 
+window.onload = function () {
+    const authToken = localStorage.getItem('authToken');
+    if (authToken) {
+        const headers = new Headers({
+            'Authorization': `Bearer ${authToken}`,
+        });
+        const request = new Request('http://127.0.0.1:8000/api/user-details', {
+            method: 'GET',
+            headers: headers,
+        });
+        fetch(request)
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    throw new Error('User details retrieval failed.');
+                }
+            })
+            .then(userDetails => {
+
+                if (userDetails) {
+                    localStorage.setItem('userDetails', JSON.stringify(userDetails));
+                } else {
+                    console.error('User details retrieval failed.');
+                }
+            })
+            .catch(error => {
+                console.error('An error occurred:', error);
+            });
+    } else {
+        console.error('Authentication token not found. Please log in.');
+    }
+};
 
